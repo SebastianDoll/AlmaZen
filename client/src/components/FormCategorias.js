@@ -67,7 +67,7 @@ const handleInputChange = function (e) {
           <div className="ubicador-formulario-categorias">
           <div className="mb-3">
 
-            <input name="nombre" className={errors.nombre && 'danger'} type="text" placeholder="nombre" onChange={handleInputChange} value={input.nombre} className="input-form-producto" id="exampleInputEmail1" aria-describedby="emailHelp" />
+            <input name="nombre" type="text" placeholder="nombre" onChange={handleInputChange} value={input.nombre} className="input-form-producto" id="exampleInputEmail1" aria-describedby="emailHelp" />
             {errors.nombre && <p className="danger">{errors.nombre}</p>} {/* esto se llama renderizado condicional */}
 
           </div>
@@ -75,7 +75,7 @@ const handleInputChange = function (e) {
 
           <div className="mb-3"> {/*  */}
 
-            <input name="descripcion" className={errors.descripcion && 'danger'} type="text" placeholder="Descripción" onChange={handleInputChange} value={input.descripcion} className="input-form-producto" id="exampleInputPassword1" />
+            <input name="descripcion" type="text" placeholder="Descripción" onChange={handleInputChange} value={input.descripcion} className="input-form-producto" id="exampleInputPassword1" />
             {errors.descripcion && <p className="danger">{errors.descripcion}</p>} {/* si existe la propiedad  en el obj de error, me mostrara un parrafo con el error y una clase */}
           <button /* onClick={handleSubmit} */ type="submit" className="btn-enviar-categoria">Enviar</button>
           </div>

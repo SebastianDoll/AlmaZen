@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from 'react-redux'
+import {useDispatch, useSelector } from 'react-redux'
 import {searchBar} from '../Redux/actions'
 import { useHistory } from "react-router-dom";
+import { connect } from "react-redux";
+//estilos
+import styles from './css/styles.css' 
 
+
+ 
 
 export default function Search () {
   const history = useHistory();

@@ -76,7 +76,7 @@ const CheckOut = (props) => {
 
     <div className="space">
       <div className="relativizador">
-      <img className="imagen-check" src={imgCheck} />
+      <img className="imagen-check" src={imgCheck} alt=""/>
         <div>
           <div className="orden-numero">FINALIZAR COMPRA</div>
           <div className="estado-orden"></div>

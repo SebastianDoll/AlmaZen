@@ -56,7 +56,7 @@ const CarritoCard = ({orderId, userId, id, nombre, descripcionCorta, precio, can
         
         <div >
             <div className="card-group">
-                <img className="img-cart" src={`${multimedia && multimedia[0].url}`} alt="Card image cap"></img>
+                <img className="img-cart" src={`${multimedia && multimedia[0].url}`} alt="Card cap"></img>
                 <div className='card-body-descripcion'>
                     <h5>{nombre}</h5>
                     <p>{`${descripcionCorta}...`}</p>

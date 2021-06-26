@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import ProductCard from './ProductCard'
 //import cod from '../img/cod.jpeg'
 import "bootstrap/dist/css/bootstrap.min.css";

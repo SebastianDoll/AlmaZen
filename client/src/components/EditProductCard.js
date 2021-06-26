@@ -20,7 +20,7 @@ function EditProductCard({ id, nombre, descripcion, descripcionCorta, categorias
 
             <div className="" >
 
-                <img src={fotos} width="50px"></img>
+                <img src={fotos} alt="Fotos" width="50px"></img>
                 <h4>{nombre}</h4>
                 {stock ?  <div><p>{descripcionCorta}</p>
                 <p>Moneda Nacional: {precio}</p> </div>: <h2>'Producto no disponible'</h2> }

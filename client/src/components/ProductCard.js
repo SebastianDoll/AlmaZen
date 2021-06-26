@@ -72,7 +72,7 @@ function ProductCard({ nombre, descripcionCorta, precio, multimedia, id, stock, 
 
             <div className="card" >
 
-                <img className="imagen-card" src={multimedia && multimedia[0].url}></img>
+                <img className="imagen-card" src={multimedia && multimedia[0].url} alt="Imagen de producto"></img>
 
                 <div className="contenedor-datos-cards">
 

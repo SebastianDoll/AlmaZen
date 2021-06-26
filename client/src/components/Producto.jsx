@@ -52,15 +52,15 @@ return (
 <div className="spacer-producto">
 
     <div className="contenedor-imagen-producto">
-    <img src={producto.multimedia && producto.multimedia[1].url} className='img-producto' />
+    <img src={producto.multimedia && producto.multimedia[1].url} className='img-producto' alt="Producto" />
 
         <div className="texto-producto">
         <h1>{producto.nombre}</h1>
         <p>{producto.descripcion}</p>
         {producto.stock > 0 ? <div>
-        <button className='comprar-producto'type="button" className="btn-negro-compra" onClick={()=>handleOnclik(gameId)}><i class="fas fa-shopping-cart"></i>    Añadir al carrito</button> </div>
+        <button type="button" className="btn-negro-compra" onClick={()=>handleOnclik(gameId)}><i class="fas fa-shopping-cart"></i>    Añadir al carrito</button> </div>
         :
-        <button className='comprar-producto' type="button" className="btn-negro-compra" >Producto no disponible</button>
+        <button type="button" className="btn-negro-compra" >Producto no disponible</button>
     }
         </div>
     </div>

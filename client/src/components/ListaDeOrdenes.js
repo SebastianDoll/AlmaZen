@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getOrders, getOrder } from '../Redux/actions'
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Select from 'react-select';
 import MenuAdm from './MenuAdm'
