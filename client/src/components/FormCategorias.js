@@ -8,7 +8,6 @@ import MenuAdm from './MenuAdm'
 import {getAllCategories} from '../Redux/actions'
 
 
-
 function FormCategorias(props) {
   const dispatch = useDispatch()
   const categories = useSelector(state => state.categories)

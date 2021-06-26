@@ -5,8 +5,6 @@ import { addUser, getAllUsers } from '../Redux/actions';
 import { useHistory } from 'react-router-dom';
 
 
-
-
 export function AddUser() {
   const [input, setinput] = useState({
     username: "",

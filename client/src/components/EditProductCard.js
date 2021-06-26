@@ -1,10 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useDispatch } from 'react-redux';
 import { deleteProduct, getAllProducts } from '../Redux/actions'
-
-
 
 
 function EditProductCard({ id, nombre, descripcion, descripcionCorta, categorias, precio, fotos, keyCode, tamanio, stock }) {
@@ -38,10 +36,7 @@ function EditProductCard({ id, nombre, descripcion, descripcionCorta, categorias
                 </div>
             </div>
 
-
-
         </div>
-
 
     )
 }

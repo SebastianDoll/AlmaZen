@@ -3,11 +3,6 @@ import validate from './validate';
 import { useDispatch, useSelector } from 'react-redux';
 import { addProduct, getAllCategories, clearImages } from '../Redux/actions';
 import Select from 'react-select';
-
-//estilos
-import styles from './css/styles.css'
-import SelectImages from './SelectImages';
-import ThumbImages from './ThumbImages';
 import MenuAdm from './MenuAdm'
 import {useHistory} from 'react-router-dom'
 

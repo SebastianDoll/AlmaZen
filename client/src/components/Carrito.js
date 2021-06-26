@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link } from "react-router-dom";
-import ProductCard from './ProductCard'
 import { useDispatch, useSelector } from 'react-redux';
-import { getShoppingCart, addToShoppingCart } from '../Redux/actions';
+import { getShoppingCart} from '../Redux/actions';
 import CarritoCard from './CarritoCard'
 import EstadoCarrito from './EstadoCarrito';
 

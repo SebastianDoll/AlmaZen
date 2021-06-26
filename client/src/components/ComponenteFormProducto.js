@@ -1,12 +1,5 @@
 import React from 'react';
 import FormProducto from './FormProducto'
-import styles from './css/styles.css'
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
 
 function ComponenteFormProducto() {
     return (
@@ -14,7 +7,6 @@ function ComponenteFormProducto() {
 
             <div >
            
-
                 <FormProducto />
 
             </div>

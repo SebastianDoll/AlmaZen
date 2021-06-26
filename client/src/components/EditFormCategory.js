@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import validateCategorias from './validateCategorias';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllCategories, getCategory } from '../Redux/actions';
-import Select from 'react-select';
 import { editCategory } from '../Redux/actions'
 import { Link } from "react-router-dom";
 

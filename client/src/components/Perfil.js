@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { logout } from '../Redux/actions';
 import { useHistory } from "react-router-dom";
 
-import styles from "./css/styles.css"
 const Perfil = () => {
 
   const perfil = useSelector(state => state.perfil);
@@ -19,15 +18,12 @@ const Perfil = () => {
     window.location.reload();
   }
 
-
   let numOrden = 0;
 
 
   return (
 
     <div className='spacer'>
-
-
       <div class="card-body" >
         <h5 class="card-title">Usuario: {perfil.username}</h5>
         <h5 class="card-title">E-mail: {perfil.email}</h5>

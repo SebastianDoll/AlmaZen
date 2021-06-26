@@ -7,8 +7,6 @@ import { editProduct } from '../Redux/actions';
 import { Link } from "react-router-dom";
 import SelectImages from './SelectImages';
 
-//estilos
-import styles from './css/styles.css'
 
 export function EditFormProducto(props) {
   const dispatch = useDispatch();

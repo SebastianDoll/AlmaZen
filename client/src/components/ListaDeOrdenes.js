@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import S from './css/styles.css'
-import { getOrders, getOrder, editOrder } from '../Redux/actions'
+import { getOrders, getOrder } from '../Redux/actions'
 import {
   BrowserRouter as Router,
   Link

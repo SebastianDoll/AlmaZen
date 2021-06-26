@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux'
 import { addToShoppingCart, quitarProducto } from '../Redux/actions';
@@ -7,7 +7,6 @@ import {AiFillCheckCircle} from 'react-icons/ai'
 import {MdRemoveShoppingCart} from 'react-icons/md'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-
 
 
 
@@ -75,9 +74,7 @@ function ProductCard({ nombre, descripcionCorta, precio, multimedia, id, stock, 
 
                 <img className="imagen-card" src={multimedia && multimedia[0].url}></img>
 
-
                 <div className="contenedor-datos-cards">
-
 
                     <Link to={`/producto/${id}`}> {/* el id me lo traje por props, mediante el template */}
                         <h4>{nombre}</h4>
@@ -99,14 +96,7 @@ function ProductCard({ nombre, descripcionCorta, precio, multimedia, id, stock, 
 
                 </div>
             </div>
-
-
-
-
-
         </div>
-
-
     )
 }
 

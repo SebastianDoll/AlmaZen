@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import S from './css/styles.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { editOrder, getOrder } from '../Redux/actions'
+import { editOrder } from '../Redux/actions'
 import Select from 'react-select';
 
 export function Orden (props) {  

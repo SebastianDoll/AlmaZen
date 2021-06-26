@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { clearShoppingCart, getShoppingCart, getOrdersById, getPerfil } from '../Redux/actions';
+import { clearShoppingCart, getOrdersById, getPerfil } from '../Redux/actions';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 import { Link } from 'react-router-dom'

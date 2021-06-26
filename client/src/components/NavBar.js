@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import { Link } from "react-router-dom";
 import SearchBar from './SearchBar';
 
-import {getPerfil, getOrdersById, getAllUsers } from '../Redux/actions'
+import {getPerfil, getOrdersById } from '../Redux/actions'
 
 import {useDispatch, useSelector} from 'react-redux'
 import {autenticationValidate} from '../Redux/actions'
@@ -41,10 +41,6 @@ function NavBar() {
         <ul className="menu_items">
           <SearchBar />
           <li>
-
-
-
-
           </li>
           <li> <Link to="/carrito" className="a" > <i class="fas fa-shopping-cart"></i> </Link></li>
 

@@ -15,8 +15,7 @@ function ListaCategorias({ nombre }) {
                     <Link className='link' onClick={()=>dispatch(filterProductsByCategory(nombre))}/*to="/producto/categoria/${nombre}"*/>
                         <h4 className="categorias_items">{nombre}</h4>
                     </Link>
-                
-            
+                            
         </div>
     )
 }

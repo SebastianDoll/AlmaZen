@@ -1,13 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ProductCard from './ProductCard'
-import cod from '../img/cod.jpeg'
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const ProductoSearch = () => {
 
         const products = useSelector(state => state.search);
-
 
         return (
 

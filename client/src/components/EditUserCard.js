@@ -1,10 +1,7 @@
-import React, { useEffect }from 'react'
+import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useDispatch } from 'react-redux';
-import { Link } from "react-router-dom";
 import { deleteUser, getAllUsers, resetPassword } from '../Redux/actions'
-
-
 
 
 function EditUserCard({ id, username, password, estadoUser, email, rol }) {

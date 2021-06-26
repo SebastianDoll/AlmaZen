@@ -14,10 +14,7 @@ console.log("lo recibo asi", autenticado)
 dispatch(autenticationValidate())
 console.log("lo recibo asi", autenticado)
 }, [autenticado]) ////
-    
-    
-    
-    
+        
     
     return (
       <div>

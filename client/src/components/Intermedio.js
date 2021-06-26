@@ -1,8 +1,7 @@
 import React from 'react';
-import {useEffect,useState} from 'react';
+import { useEffect } from 'react';
 import { useHistory } from "react-router-dom";
-import {useDispatch,useSelector } from 'react-redux';
-
+import { useSelector } from 'react-redux';
 
 
 function Intermedio() {
@@ -33,9 +32,6 @@ useEffect(() => {
         }
       }, [autenticado]) 
        
-
-
-
 return (
     <div>
         ....

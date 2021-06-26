@@ -1,13 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import validateLogin from './validateLogin';
 import { useDispatch, useSelector } from 'react-redux'
-import { getAllUsers, login } from '../Redux/actions'
+import { login } from '../Redux/actions'
 import { useHistory } from "react-router-dom";
-import { autenticationValidate } from '../Redux/actions'
 
 
 const Login = () => {
-
 
   const history = useHistory()
   const dispatch = useDispatch()
@@ -20,12 +18,6 @@ const Login = () => {
 
   });
   const [errors, setErrors] = React.useState({})
-
-
-/* const onClick = () => {
-  window.open('http://localhost:3001/auth/github', '_self')
-} */
-
 
   const onClick2 = () => {
     window.open('http://localhost:3001/auth/google', '_self')
@@ -52,11 +44,6 @@ const Login = () => {
     setTimeout(() => {
       history.push("/validacion")
     }, 500)
-
-
-
-
-
 
     setInput({
       ...input,
@@ -88,10 +75,7 @@ const Login = () => {
             {errors.password && <p className="danger">{errors.password}</p>}
           </div>
 
-
-
           <button type="submit" className="btn-register">Ingresar</button>
-
 
         </form>
         <div className="organizador-btn">
@@ -104,10 +88,6 @@ const Login = () => {
 
       </div>
     </div>
-
-
-
-
   )
 }
 

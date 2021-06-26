@@ -1,17 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
   } from "react-router-dom";
-
-import styles from './css/styles.css'
-
-
-
-
 
 
 function MenuAdm() {
@@ -21,10 +13,6 @@ function MenuAdm() {
         <div className="container-menu">
             <div className="cont-menu">
                 <nav >
-
-
-                    {/* cambiar los 'a' por 'link' */}
-
                     
                     <Link to="/admin/listaDeOrdenes" className="ruta-adm"> Lista de órdenes </Link>
                     <Link to="/admin/EditCatalog" className="ruta-adm"> Editar producto </Link>
@@ -33,14 +21,6 @@ function MenuAdm() {
                     <Link to="/admin/FormProducto" className="ruta-adm"> Añadir un producto </Link>
                     <Link to="/admin/FormCategorias" className="ruta-adm"> Añadir una categoría </Link>
                     
-                   
-
-
-
-
-
-
-
                 </nav>
             </div>
         </div>

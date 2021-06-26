@@ -1,9 +1,9 @@
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { mercadoPago } from '../Redux/actions'
-import { Redirect, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { resetCarrito } from '../Redux/actions';
 import imgCheck from '../img/checkout.png'
+
 const CheckOut = (props) => {
 
   const dispatch = useDispatch();

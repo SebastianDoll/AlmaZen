@@ -1,15 +1,10 @@
 import React from 'react'
 import {useParams} from 'react-router-dom'
 import {useDispatch, useSelector} from 'react-redux';
-import {getProduct, addToShoppingCart, editTotalOrder} from '../Redux/actions'
-import {useEffect} from 'react';
+import { getProduct, addToShoppingCart } from '../Redux/actions'
+import { useEffect } from 'react';
 import Reviews from './Reviews'
-// const titulo = "Call Of Duty"
 
-// const descripcion = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "
-// const precio = "$960"
-// const precio1 = "USD$4.OO"
-// const id = 1
 
 const Producto = () => {
     const {id} = useParams() //mediante params capturo, lo que pasan por parametro en la ruta

@@ -1,11 +1,6 @@
 import React from 'react';
 
 
-//estilos
-import styles from './css/styles.css'
-
-
-
 function Footer() {
     return (
        
@@ -33,10 +28,7 @@ function Footer() {
                         </div>
                     </nav>
                 </div>
-            </footer>
-
-
-        
+            </footer>     
 
     )
 }

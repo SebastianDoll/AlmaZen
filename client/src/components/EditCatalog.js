@@ -1,7 +1,6 @@
 import React from 'react';
 import EditProductCard from './EditProductCard'
 import cod from '../img/cod.jpeg'
-import Footer from './Footer'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useSelector } from 'react-redux';
 
